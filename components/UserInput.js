@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import axios from 'axios'
 import getQueryUrl from '../utils/getQueryUrl';
 import { useUsers } from '../actions/users';
 import { DataContext } from '../store/GlobalState';
+import axios from 'axios';
 
 const UserInput = () => {
     const { userState, setUserState } = useContext(DataContext);

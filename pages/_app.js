@@ -1,17 +1,19 @@
 import Header from '../components/Header'
-import axios from 'axios';
 import Head from 'next/head'
 import '../styles/globals.css';
 import { SWRConfig } from 'swr';
 import DataProvider from '../store/GlobalState';
+import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'https://api.npoint.io/46cd252be1391a1013ce';
 
 function MyApp({ Component, pageProps }) {
   return (
     <DataProvider>
       <SWRConfig value={{
-        fetcher: (url) => axios(url).then(res => res.data),
+        fetcher: async (url) => {
+          return await axios(url).then(res => res.data)
+        },
         dedupingInterval: 10000,
       }}>
         <Head>

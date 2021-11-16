@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
-import axios from 'axios';
 import getQueryUrl from '../utils/getQueryUrl'
 import { useUsers } from '../actions/users'
 import { DataContext } from '../store/GlobalState';
+import axios from 'axios';
 
 const Card = ({ user }) => {
     const { setUserState } = useContext(DataContext)

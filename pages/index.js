@@ -1,8 +1,8 @@
+import axios from 'axios';
 import Head from 'next/head';
 import Page from '../components/Page';
 import UserInput from '../components/UserInput';
 import getQueryUrl from '../utils/getQueryUrl';
-import axios from 'axios';
 
 export default function Home({ initUsers }) {
   const { page, limit, search } = getQueryUrl();
