@@ -4,7 +4,7 @@ This is just an application to practice fetching data with SWR library. SWR is a
 
 > A sudoku game application works on both website and mobile web app.
 
-![Demo Images](https://imgur.com/a/2vTZOTg)
+![Demo Images](https://imgur.com/wdrL445)
 
 ## General info
 
