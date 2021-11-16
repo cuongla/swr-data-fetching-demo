@@ -1,10 +1,8 @@
 # SWR-Data-Fetching Application
 
-This is just an application to practice fetching data with SWR library. SWR is a React Hooks library for data fetching. The name “SWR” is derived from stale-while-revalidate , a cache invalidation strategy popularized by HTTP RFC 5861. SWR first returns the data from cache (stale), then sends the request (revalidate), and finally comes with the up-to-date data again.
+A demo application to practice fetching data with SWR library. SWR is a React Hooks library for data fetching. The name “SWR” is derived from stale-while-revalidate , a cache invalidation strategy popularized by HTTP RFC 5861. SWR first returns the data from cache (stale), then sends the request (revalidate), and finally comes with the up-to-date data again.
 
-> A sudoku game application works on both website and mobile web app.
-
-![Demo Images](https://imgur.com/wdrL445)
+![Demo Images](https://imgur.com/wdrL445.png)
 
 ## General info
 
