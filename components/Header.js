@@ -44,6 +44,7 @@ const Header = () => {
         setSearch('')
     }
 
+
     return (
         <header>
             <div className="nav wrap">
