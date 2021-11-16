@@ -5,7 +5,7 @@ import '../styles/globals.css';
 import { SWRConfig } from 'swr';
 import DataProvider from '../store/GlobalState';
 
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = process.env.NEXT_APP_SERVER_URL;
 
 function MyApp({ Component, pageProps }) {
   return (
